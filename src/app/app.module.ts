@@ -9,6 +9,7 @@ import { RegisterComponent } from './pages/register/register.component';
 import { UpdateComponent } from './pages/update/update.component';
 import { LoginComponent } from './auth/login/login.component';
 import { ReviewComponent } from './pages/review/review.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ReviewComponent } from './pages/review/review.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
